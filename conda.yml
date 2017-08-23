@@ -1,0 +1,16 @@
+channels:
+    - bioconda
+    - conda-forge
+    - jmeppley
+dependencies:
+    - python=3.5
+    - snakemake<4
+    - py-metagenomics
+    - infernal
+    - bwa
+    - seqtk
+    - jupyter
+    - jupyter_nbextensions_configurator
+    - jupyter_contrib_nbextensions
+    - nbpresent
+
