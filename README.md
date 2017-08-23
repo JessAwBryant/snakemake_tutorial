@@ -10,6 +10,7 @@ To run your own jupyter server:
  * clone this repository
 ```
 git clone https://github.com/jmeppley/snakemake_tutorial
+cd snakemake_tutorial
 ```
  * Install the pre-requisites for this tutorial:
 ```
@@ -17,6 +18,7 @@ conda env create -n tutorial -f conda.yml
 ```
  * Launch the notebook server:
 ```
+source activate tutorial
 jupyter notebook
 ```
  * navigate to the notebooks folder to find the tutorial
