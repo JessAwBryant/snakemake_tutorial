@@ -7,6 +7,10 @@ your own jupyeter instance.
 To run your own jupyter server:
 
  * Make sure you have the conda package manager installed
+ * clone this repository
+```
+git clone https://github.com/jmeppley/snakemake_tutorial
+```
  * Install the pre-requisites for this tutorial:
 ```
 conda env create -n tutorial -f conda.yml
